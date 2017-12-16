@@ -1,0 +1,20 @@
+buildscript {
+    repositories {
+        jcenter()
+        maven { url "https://raw.githubusercontent.com/umeng/mvn-repo-umeng/master/repository" }
+        maven { url "http://dl.bintray.com/tbruyelle/tbruyelle" }
+        maven { url "https://jitpack.io" }
+
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.3.3'
+        classpath 'com.neenbedankt.gradle.plugins:android-apt:1.8'
+    }
+}
+
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+apply from: 'config/dependencies.gradle'

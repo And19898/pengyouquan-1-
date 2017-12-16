@@ -1,0 +1,46 @@
+ext{
+    //build版本
+    sdkVersion = 25
+    toolsVersion = "25.0.0"
+    //最小sdk版本
+    minVersion = 16
+    //当前sdk版本
+    tagVersion = 25
+
+//    //app名字
+//    appName = "11选5"
+//    //app启动页图片(必须在drawable文件夹中)
+//    splashPic = "splash_1"
+//    //bmob key
+//    bmobKey = "979f2349e879fb0a4af2868de572a812"
+//    //app包名
+//    packagename = "com.android.xuan"
+//    //推送key
+//    jpush_appkey = "18d7f16f5f90df21816c592e"
+//    //app版本名
+//    autoVersionName = "2.3.6"
+//    //主题色
+//    themeColor = "#0189FF"
+//    //接口检测的地址
+//    interface_check_url = "https://appid-apkk.xx-app.com/frontApi/getAboutUs?appid=94836901"
+
+
+
+    //app名字
+    appName = "时时彩"
+    //app启动页图片(必须在drawable文件夹中)
+    splashPic = "splash_pc"
+    //bmob key
+    bmobKey = "979f2349e879fb0a4af2868de572a812"
+    //app包名
+    packagename = "com.android.mj.shishicai"
+    //推送key
+    jpush_appkey = "69cee267605eb5bf98f9f961"
+    //app版本名
+    autoVersionName = "1.3.1"
+    //主题色
+    themeColor = "#0189FF"
+    //接口检测的地址
+    interface_check_url = "https://appid-apkk.xx-app.com/frontApi/getAboutUs?appid=94836901"
+}
+
